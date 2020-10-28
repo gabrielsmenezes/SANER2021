@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
   <head>
     <!-- Meta tags Obrigatórias -->
     <meta charset="utf-8">
@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-    <title>Quero lhe usar!</title>
+    <title>Title</title>
     <style>
       a:hover {
         background-color: #B4B4B4;
@@ -18,404 +18,980 @@
   <body>
     <!--navbar-->
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="#" style="background-color: transparent;">Abstract</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="#metrics_1">Code Samples</a>
+          <li class="nav-item">
+            <a class="nav-link" href="#overall">Overall</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#metrics_2">Question</a>
+            <a class="nav-link" href="#android">Android</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#metrics_3">Reputation</a>
+            <a class="nav-link" href="#aws">AWS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#azure">Azue</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#spring">Spring</a>
           </li>
         </ul>
       </div>
     </nav>
+    
     <div class="container">
-      <h1 style="text-align: center; margin-top: 10px;"><br><br><b>Quero lhe usar!<br>Uma Análise do Público-Alvo de Code Samples</b></h1><hr>
+      <h1 style="text-align: center; margin-top: 10px;"><br><br><b>Title<br>Subtitle</b></h1><hr>
 
-      <p style="text-align: justify;"><b>Abstract. </b>Code samples are projects made available by organizations to assistthe learning process of features of their products software. There is an increasein the importance that code samples have in the developer community, but littleis  known  about  who  are  using  them.   The  target  audience  for  code  samplesis believed to be the inexperienced developer,  but to start a characterization,the current work presents an empirical study through the analysis of developerstatistics on the Stack Overflow.  As a result, implications have been generatedthat can assist organizations to keep code samples relevants to developers.</p>
-      <p style="text-align: center;"><b>Willian M. Braga, Gabriel Menezes, Awdren Fontão, Bruno Cafeu, André Hora</b></p><br><hr>
+      <p style="text-align: justify;"><b>Abstract. </b>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum.</p>
+      <p style="text-align: center;"><b>Gabriel Menezes, Willian Braga, Awdren Fontão, Bruno Cafeo, Andre Hora</b></p>
     </div>
-    <div class="container">
-      <section id="metrics_1" style="text-align: center;">
-        <h2>Code Samples</h2><br><hr>
-        <br><h4>Number Of Java Files</h4>
-        <table class="table table-bordered" style="font-size: 12px;">
+    
+    <div class="container justify-content-center align-items-center">
+      <section id="overall" style="text-align: center;">
+        <h2>Overall</h2>
+          <style type="text/css">
+          .tg  {border-collapse:collapse;border-color:#ccc;border-spacing:0;}
+          .tg td{background-color:#fff;border-color:#ccc;border-style:solid;border-width:1px;color:#333;
+            font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
+          .tg th{background-color:#f0f0f0;border-color:#ccc;border-style:solid;border-width:1px;color:#333;
+            font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+          .tg .tg-0lax{text-align:left;vertical-align:top}
+          </style>
+          <table class="tg">
           <thead>
             <tr>
-              <th scope="col">Framework</th>
-              <th scope="col">Min</th>
-              <th scope="col">Max</th>
-              <th scope="col">Mode</th>
-              <th scope="col">Average</th>
-              <th scope="col">Median</th>
-              <th scope="col">Details</th>
+              <th class="tg-0lax"><span style="font-weight:bold">metric</span></th>
+              <th class="tg-0lax"><span style="font-weight:bold">shortname</span></th>
+              <th class="tg-0lax"><span style="font-weight:bold">min</span></th>
+              <th class="tg-0lax"><span style="font-weight:bold">max</span></th>
+              <th class="tg-0lax"><span style="font-weight:bold">avg</span></th>
+              <th class="tg-0lax"><span style="font-weight:bold">med</span></th>
+              <th class="tg-0lax"><span style="font-weight:bold">std</span></th>
+              <th class="tg-0lax"><span style="font-weight:bold">trend</span></th>
+              <th class="tg-0lax"><span style="font-weight:bold">p-value</span></th>
+              <th class="tg-0lax"><span style="font-weight:bold">correlation</span></th>
+              <th class="tg-0lax"><span style="font-weight:bold">p-value</span></th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <th>Android</th>
-              <td>0</td>
-              <td>348</td>
-              <td>0 e 4</td>
-              <td>14</td>
-              <td>9</td>
-              <td><a href="https://drive.google.com/file/d/144wvCeH6VkGYxW9xYLVJ6UkIu2zch9fr/view?usp=sharing" target="__blank">csv file</a></td>
+              <td class="tg-0lax">CountLineCode</td>
+              <td class="tg-0lax">LOC</td>
+              <td class="tg-0lax">16.40866774</td>
+              <td class="tg-0lax">146.54929312</td>
+              <td class="tg-0lax">94.83081670</td>
+              <td class="tg-0lax">94.84922880</td>
+              <td class="tg-0lax">38.71582327</td>
+              <td class="tg-0lax">increasing</td>
+              <td class="tg-0lax">0.00000000</td>
+              <td class="tg-0lax">0.89993277</td>
+              <td class="tg-0lax">0.00000000</td>
             </tr>
             <tr>
-              <th>Azure</th>
-              <td>0</td>
-              <td>102</td>
-              <td>0 e 2</td>
-              <td>6.72</td>
-              <td>2</td>
-              <td><a href="https://drive.google.com/file/d/11GAnlG3bk3Qwln-pKjSEjF2XYh_12waU/view?usp=sharing" target="__blank">csv file</a></td>
+              <td class="tg-0lax">CountDeclClass</td>
+              <td class="tg-0lax">Classes</td>
+              <td class="tg-0lax">2.67204301</td>
+              <td class="tg-0lax">31.53092458</td>
+              <td class="tg-0lax">18.47760363</td>
+              <td class="tg-0lax">20.39329421</td>
+              <td class="tg-0lax">9.14987690</td>
+              <td class="tg-0lax">increasing</td>
+              <td class="tg-0lax">0.00000000</td>
+              <td class="tg-0lax">0.93551301</td>
+              <td class="tg-0lax">0.00000000</td>
             </tr>
             <tr>
-              <th>AWS</th>
-              <td>1</td>
-              <td>203</td>
-              <td>0 e 2</td>
-              <td>23.16</td>
-              <td>10</td>
-              <td><a href="https://drive.google.com/file/d/1zXa4x1xXxLF2pIVVCZPEfgWS8yqjlcxq/view?usp=sharing" target="__blank">csv file</a></td>
+              <td class="tg-0lax">SumCyclomatic</td>
+              <td class="tg-0lax">WMC</td>
+              <td class="tg-0lax">2.16369048</td>
+              <td class="tg-0lax">20.61635578</td>
+              <td class="tg-0lax">13.62605856</td>
+              <td class="tg-0lax">12.75079570</td>
+              <td class="tg-0lax">4.89129839</td>
+              <td class="tg-0lax">increasing</td>
+              <td class="tg-0lax">0.00000000</td>
+              <td class="tg-0lax">0.88538202</td>
+              <td class="tg-0lax">0.00000000</td>
             </tr>
             <tr>
-              <th>Spring</th>
-              <td>2</td>
-              <td>38</td>
-              <td>0 e 6</td>
-              <td>6.78</td>
-              <td>6</td>
-              <td><a href="https://drive.google.com/file/d/1fPbkwgl6SYQu2NynVTrAAQOn9P9c5ztU/view?usp=sharing" target="__blank">csv file</a></td>
+              <td class="tg-0lax">CountLine</td>
+              <td class="tg-0lax">PL</td>
+              <td class="tg-0lax">21.25017866</td>
+              <td class="tg-0lax">207.00288667</td>
+              <td class="tg-0lax">141.30614993</td>
+              <td class="tg-0lax">139.77826369</td>
+              <td class="tg-0lax">49.41195107</td>
+              <td class="tg-0lax">increasing</td>
+              <td class="tg-0lax">0.00000000</td>
+              <td class="tg-0lax">0.88146549</td>
+              <td class="tg-0lax">0.00000000</td>
+            </tr>
+            <tr>
+              <td class="tg-0lax">CountLineComment</td>
+              <td class="tg-0lax">CLOC</td>
+              <td class="tg-0lax">0.95962590</td>
+              <td class="tg-0lax">37.75504025</td>
+              <td class="tg-0lax">27.38957206</td>
+              <td class="tg-0lax">30.11518315</td>
+              <td class="tg-0lax">8.45243484</td>
+              <td class="tg-0lax">increasing</td>
+              <td class="tg-0lax">0.00000000</td>
+              <td class="tg-0lax">0.87635219</td>
+              <td class="tg-0lax">0.00000000</td>
+            </tr>
+            <tr>
+              <td class="tg-0lax">CountDeclMethodAll</td>
+              <td class="tg-0lax">RFC</td>
+              <td class="tg-0lax">13.30654762</td>
+              <td class="tg-0lax">21.80284438</td>
+              <td class="tg-0lax">18.57435199</td>
+              <td class="tg-0lax">18.15974890</td>
+              <td class="tg-0lax">2.12526411</td>
+              <td class="tg-0lax">increasing</td>
+              <td class="tg-0lax">0.00000000</td>
+              <td class="tg-0lax">0.85749805</td>
+              <td class="tg-0lax">0.00000000</td>
+            </tr>
+            <tr>
+              <td class="tg-0lax">numberJavaFiles</td>
+              <td class="tg-0lax">Java</td>
+              <td class="tg-0lax">2.58064516</td>
+              <td class="tg-0lax">18.26012264</td>
+              <td class="tg-0lax">11.42278745</td>
+              <td class="tg-0lax">13.36977973</td>
+              <td class="tg-0lax">5.14317442</td>
+              <td class="tg-0lax">increasing</td>
+              <td class="tg-0lax">0.00000000</td>
+              <td class="tg-0lax">0.80328485</td>
+              <td class="tg-0lax">0.00000000</td>
+            </tr>
+            <tr>
+              <td class="tg-0lax">CountClassDerived</td>
+              <td class="tg-0lax">NOC</td>
+              <td class="tg-0lax">0.00000000</td>
+              <td class="tg-0lax">0.05441160</td>
+              <td class="tg-0lax">0.02035259</td>
+              <td class="tg-0lax">0.00997276</td>
+              <td class="tg-0lax">0.01791057</td>
+              <td class="tg-0lax">increasing</td>
+              <td class="tg-0lax">0.00000000</td>
+              <td class="tg-0lax">0.76662880</td>
+              <td class="tg-0lax">0.00000000</td>
+            </tr>
+            <tr>
+              <td class="tg-0lax">readability</td>
+              <td class="tg-0lax">Readability</td>
+              <td class="tg-0lax">0.07222144</td>
+              <td class="tg-0lax">0.25927727</td>
+              <td class="tg-0lax">0.10435405</td>
+              <td class="tg-0lax">0.09227196</td>
+              <td class="tg-0lax">0.03390555</td>
+              <td class="tg-0lax">decreasing</td>
+              <td class="tg-0lax">0.00000350</td>
+              <td class="tg-0lax">-0.56999091</td>
+              <td class="tg-0lax">0.00000001</td>
+            </tr>
+            <tr>
+              <td class="tg-0lax">PercentLackOfCohesion</td>
+              <td class="tg-0lax">LCOM</td>
+              <td class="tg-0lax">0.99617347</td>
+              <td class="tg-0lax">34.02478410</td>
+              <td class="tg-0lax">27.30544480</td>
+              <td class="tg-0lax">28.20560193</td>
+              <td class="tg-0lax">4.28256320</td>
+              <td class="tg-0lax">increasing</td>
+              <td class="tg-0lax">0.00086462</td>
+              <td class="tg-0lax">0.28166760</td>
+              <td class="tg-0lax">0.00749404</td>
+            </tr>
+            <tr>
+              <td class="tg-0lax">CountClassCoupled</td>
+              <td class="tg-0lax">CBO</td>
+              <td class="tg-0lax">3.26499213</td>
+              <td class="tg-0lax">7.78628739</td>
+              <td class="tg-0lax">6.72782889</td>
+              <td class="tg-0lax">6.91457095</td>
+              <td class="tg-0lax">0.68897038</td>
+              <td class="tg-0lax">increasing</td>
+              <td class="tg-0lax">0.02105252</td>
+              <td class="tg-0lax">0.16176959</td>
+              <td class="tg-0lax">0.12988594</td>
+            </tr>
+            <tr>
+              <td class="tg-0lax">MaxInheritanceTree</td>
+              <td class="tg-0lax">DIT</td>
+              <td class="tg-0lax">1.03018707</td>
+              <td class="tg-0lax">1.47805441</td>
+              <td class="tg-0lax">1.29561059</td>
+              <td class="tg-0lax">1.29451358</td>
+              <td class="tg-0lax">0.06487980</td>
+              <td class="tg-0lax">no trend</td>
+              <td class="tg-0lax">0.92658551</td>
+              <td class="tg-0lax">0.06435958</td>
+              <td class="tg-0lax">0.54903584</td>
             </tr>
           </tbody>
-        </table>
-        <hr>
-        <h4>Count Line Code by Java File</h4><br>
-        <table class="table table-bordered" style="font-size: 12px;">
-          <thead>
-            <tr>
-              <th scope="col">Framework</th>
-              <th scope="col">Min</th>
-              <th scope="col">Max</th>
-              <th scope="col">Mode</th>
-              <th scope="col">Average</th>
-              <th scope="col">Median</th>
-              <th scope="col">Details</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th>Android</th>
-              <td>21.5</td>
-              <td>524.30</td>
-              <td>-</td>
-              <td>89.42</td>
-              <td>70.5</td>
-              <td><a href="https://drive.google.com/file/d/144wvCeH6VkGYxW9xYLVJ6UkIu2zch9fr/view?usp=sharing" target="__blank">csv file</a></td>
-            </tr>
-            <tr>
-              <th>Azure</th>
-              <td>12.33</td>
-              <td>1373.5</td>
-              <td>0 e 1271</td>
-              <td>738.01</td>
-              <td>1208.75</td>
-              <td><a href="https://drive.google.com/file/d/11GAnlG3bk3Qwln-pKjSEjF2XYh_12waU/view?usp=sharing" target="__blank">csv file</a></td>
-            </tr>
-            <tr>
-              <th>AWS</th>
-              <td>9.5</td>
-              <td>378</td>
-              <td>0, 1, 26 e 58</td>
-              <td>68.41</td>
-              <td>56.4</td>
-              <td><a href="https://drive.google.com/file/d/1zXa4x1xXxLF2pIVVCZPEfgWS8yqjlcxq/view?usp=sharing" target="__blank">csv file</a></td>
-            </tr>
-            <tr>
-              <th>Spring</th>
-              <td>8</td>
-              <td>48</td>
-              <td>0 e 15</td>
-              <td>22.16</td>
-              <td>20.71</td>
-              <td><a href="https://drive.google.com/file/d/1fPbkwgl6SYQu2NynVTrAAQOn9P9c5ztU/view?usp=sharing" target="__blank">csv file</a></td>
-            </tr>
-          </tbody>
-        </table>
-        <br><h4>Cyclomatic Complexity by Method</h4>
-        <table class="table table-bordered" style="font-size: 12px;">
-          <thead>
-            <tr>
-              <th scope="col">Framework</th>
-              <th scope="col">Min</th>
-              <th scope="col">Max</th>
-              <th scope="col">Mode</th>
-              <th scope="col">Average</th>
-              <th scope="col">Median</th>
-              <th scope="col">Details</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th>Android</th>
-              <td>1</td>
-              <td>3.14</td>
-              <td>-</td>
-              <td>1.54</td>
-              <td>1.57</td>
-              <td><a href="https://drive.google.com/file/d/144wvCeH6VkGYxW9xYLVJ6UkIu2zch9fr/view?usp=sharing" target="__blank">csv file</a></td>
-            </tr>
-            <tr>
-              <th>Azure</th>
-              <td>0.60</td>
-              <td>15</td>
-              <td>0 e 3.81</td>
-              <td>3.05</td>
-              <td>3.72</td>
-              <td><a href="https://drive.google.com/file/d/11GAnlG3bk3Qwln-pKjSEjF2XYh_12waU/view?usp=sharing" target="__blank">csv file</a></td>
-            </tr>
-            <tr>
-              <th>AWS</th>
-              <td>1</td>
-              <td>13</td>
-              <td>0 e 1</td>
-              <td>1.85</td>
-              <td>1.62</td>
-              <td><a href="https://drive.google.com/file/d/1zXa4x1xXxLF2pIVVCZPEfgWS8yqjlcxq/view?usp=sharing" target="__blank">csv file</a></td>
-            </tr>
-            <tr>
-              <th>Spring</th>
-              <td>0.9</td>
-              <td>2.6</td>
-              <td>0 e 1</td>
-              <td>1.16</td>
-              <td>1</td>
-              <td><a href="https://drive.google.com/file/d/1fPbkwgl6SYQu2NynVTrAAQOn9P9c5ztU/view?usp=sharing" target="__blank">csv file</a></td>
-            </tr>
-          </tbody>
+          </table>
+    <img src="images/CountLineCode.jpg">
+    <img src="images/CountDeclClass.jpg">
+    <img src="images/SumCyclomatic.jpg">
+    <img src="images/CountLine.jpg">
+    <img src="images/CountLineComment.jpg">
+    <img src="images/CountDeclMethodAll.jpg">
+    <img src="images/Java.jpg">
+    <img src="images/CountClassDerived.jpg">
+    <img src="images/Readability.jpg">
+    <img src="images/PercentLackOfCohesion.jpg">
+    <img src="images/CountClassCoupled.jpg">
+    <img src="images/MaxInheritanceTree.jpg">
+  </section>
+
+      <section id="android" style="text-align: center; margin-top: 10px;">
+        <h2>Android</h2>
+        <style type="text/css">
+        .tg  {border-collapse:collapse;border-color:#ccc;border-spacing:0;}
+        .tg td{background-color:#fff;border-color:#ccc;border-style:solid;border-width:1px;color:#333;
+          font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
+        .tg th{background-color:#f0f0f0;border-color:#ccc;border-style:solid;border-width:1px;color:#333;
+          font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+        .tg .tg-0lax{text-align:left;vertical-align:top}
+        </style>
+        <table class="tg">
+        <thead>
+          <tr>
+            <th class="tg-0lax"><span style="font-weight:bold">metric</span></th>
+            <th class="tg-0lax"><span style="font-weight:bold">shortname</span></th>
+            <th class="tg-0lax"><span style="font-weight:bold">min</span></th>
+            <th class="tg-0lax"><span style="font-weight:bold">max</span></th>
+            <th class="tg-0lax"><span style="font-weight:bold">avg</span></th>
+            <th class="tg-0lax"><span style="font-weight:bold">med</span></th>
+            <th class="tg-0lax"><span style="font-weight:bold">std</span></th>
+            <th class="tg-0lax"><span style="font-weight:bold">trend</span></th>
+            <th class="tg-0lax"><span style="font-weight:bold">p-value</span></th>
+            <th class="tg-0lax"><span style="font-weight:bold">correlation</span></th>
+            <th class="tg-0lax"><span style="font-weight:bold">p-value</span></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="tg-0lax">numberJavaFiles</td>
+            <td class="tg-0lax">Java</td>
+            <td class="tg-0lax">7.285714286</td>
+            <td class="tg-0lax">19.65178571</td>
+            <td class="tg-0lax">15.10301909</td>
+            <td class="tg-0lax">14.7273785</td>
+            <td class="tg-0lax">3.370907001</td>
+            <td class="tg-0lax">increasing</td>
+            <td class="tg-0lax">0.00E+00</td>
+            <td class="tg-0lax">0.9867429108</td>
+            <td class="tg-0lax">0.00E+00</td>
+          </tr>
+          <tr>
+            <td class="tg-0lax">CountDeclClass</td>
+            <td class="tg-0lax">Classes</td>
+            <td class="tg-0lax">14.42857143</td>
+            <td class="tg-0lax">62.86904762</td>
+            <td class="tg-0lax">36.9755028</td>
+            <td class="tg-0lax">31.05526179</td>
+            <td class="tg-0lax">15.52199666</td>
+            <td class="tg-0lax">increasing</td>
+            <td class="tg-0lax">0.00E+00</td>
+            <td class="tg-0lax">0.9854151338</td>
+            <td class="tg-0lax">0.00E+00</td>
+          </tr>
+          <tr>
+            <td class="tg-0lax">CountLineCode</td>
+            <td class="tg-0lax">LOC</td>
+            <td class="tg-0lax">64.37427302</td>
+            <td class="tg-0lax">86.34972336</td>
+            <td class="tg-0lax">80.52000686</td>
+            <td class="tg-0lax">81.13956206</td>
+            <td class="tg-0lax">5.230683987</td>
+            <td class="tg-0lax">increasing</td>
+            <td class="tg-0lax">0.00E+00</td>
+            <td class="tg-0lax">0.8977094229</td>
+            <td class="tg-0lax">2.05E-28</td>
+          </tr>
+          <tr>
+            <td class="tg-0lax">CountLine</td>
+            <td class="tg-0lax">PL</td>
+            <td class="tg-0lax">97.06075353</td>
+            <td class="tg-0lax">135.8028714</td>
+            <td class="tg-0lax">126.9376513</td>
+            <td class="tg-0lax">127.2499864</td>
+            <td class="tg-0lax">6.73641515</td>
+            <td class="tg-0lax">increasing</td>
+            <td class="tg-0lax">4.56E-12</td>
+            <td class="tg-0lax">0.7255972928</td>
+            <td class="tg-0lax">8.36E-14</td>
+          </tr>
+          <tr>
+            <td class="tg-0lax">CountLineComment</td>
+            <td class="tg-0lax">CLOC</td>
+            <td class="tg-0lax">18.67179487</td>
+            <td class="tg-0lax">34.42210485</td>
+            <td class="tg-0lax">31.2330923</td>
+            <td class="tg-0lax">31.28864644</td>
+            <td class="tg-0lax">2.471321834</td>
+            <td class="tg-0lax">decreasing</td>
+            <td class="tg-0lax">8.03E-06</td>
+            <td class="tg-0lax">-0.4741135106</td>
+            <td class="tg-0lax">1.33E-05</td>
+          </tr>
+          <tr>
+            <td class="tg-0lax">CountDeclMethodAll</td>
+            <td class="tg-0lax">RFC</td>
+            <td class="tg-0lax">16.84157509</td>
+            <td class="tg-0lax">19.31707116</td>
+            <td class="tg-0lax">18.94210777</td>
+            <td class="tg-0lax">18.97476177</td>
+            <td class="tg-0lax">0.3353472527</td>
+            <td class="tg-0lax">decreasing</td>
+            <td class="tg-0lax">6.54E-06</td>
+            <td class="tg-0lax">-0.4369121566</td>
+            <td class="tg-0lax">7.10E-05</td>
+          </tr>
+          <tr>
+            <td class="tg-0lax">CountClassCoupled</td>
+            <td class="tg-0lax">CBO</td>
+            <td class="tg-0lax">4.217692308</td>
+            <td class="tg-0lax">5.093615002</td>
+            <td class="tg-0lax">4.867241844</td>
+            <td class="tg-0lax">4.886638885</td>
+            <td class="tg-0lax">0.149923286</td>
+            <td class="tg-0lax">increasing</td>
+            <td class="tg-0lax">2.37E-03</td>
+            <td class="tg-0lax">0.3383614319</td>
+            <td class="tg-0lax">2.61E-03</td>
+          </tr>
+          <tr>
+            <td class="tg-0lax">PercentLackOfCohesion</td>
+            <td class="tg-0lax">LCOM</td>
+            <td class="tg-0lax">30.98864469</td>
+            <td class="tg-0lax">39.46149032</td>
+            <td class="tg-0lax">37.38408021</td>
+            <td class="tg-0lax">37.48443874</td>
+            <td class="tg-0lax">1.014783923</td>
+            <td class="tg-0lax">increasing</td>
+            <td class="tg-0lax">3.91E-02</td>
+            <td class="tg-0lax">0.1736238459</td>
+            <td class="tg-0lax">1.31E-01</td>
+          </tr>
+          <tr>
+            <td class="tg-0lax">SumCyclomatic</td>
+            <td class="tg-0lax">WMC</td>
+            <td class="tg-0lax">8.564102564</td>
+            <td class="tg-0lax">12.15649848</td>
+            <td class="tg-0lax">11.32036177</td>
+            <td class="tg-0lax">11.33749124</td>
+            <td class="tg-0lax">0.4911118002</td>
+            <td class="tg-0lax">no trend</td>
+            <td class="tg-0lax">5.14E-02</td>
+            <td class="tg-0lax">-0.1709816295</td>
+            <td class="tg-0lax">1.37E-01</td>
+          </tr>
+          <tr>
+            <td class="tg-0lax">CountClassDerived</td>
+            <td class="tg-0lax">NOC</td>
+            <td class="tg-0lax">0</td>
+            <td class="tg-0lax">0.03154753183</td>
+            <td class="tg-0lax">0.02621215227</td>
+            <td class="tg-0lax">0.02669213252</td>
+            <td class="tg-0lax">0.004861414082</td>
+            <td class="tg-0lax">decreasing</td>
+            <td class="tg-0lax">1.97E-02</td>
+            <td class="tg-0lax">-0.1687428934</td>
+            <td class="tg-0lax">1.42E-01</td>
+          </tr>
+          <tr>
+            <td class="tg-0lax">MaxInheritanceTree</td>
+            <td class="tg-0lax">DIT</td>
+            <td class="tg-0lax">1.635531136</td>
+            <td class="tg-0lax">1.823076923</td>
+            <td class="tg-0lax">1.706325292</td>
+            <td class="tg-0lax">1.70657148</td>
+            <td class="tg-0lax">0.01830277782</td>
+            <td class="tg-0lax">no trend</td>
+            <td class="tg-0lax">9.05E-01</td>
+            <td class="tg-0lax">0.1007722897</td>
+            <td class="tg-0lax">3.83E-01</td>
+          </tr>
+          <tr>
+            <td class="tg-0lax">readability</td>
+            <td class="tg-0lax">Readability</td>
+            <td class="tg-0lax">0.006320071319</td>
+            <td class="tg-0lax">0.03261981829</td>
+            <td class="tg-0lax">0.02386098363</td>
+            <td class="tg-0lax">0.02454406658</td>
+            <td class="tg-0lax">0.004751556797</td>
+            <td class="tg-0lax">no trend</td>
+            <td class="tg-0lax">3.27E-01</td>
+            <td class="tg-0lax">0.02943244934</td>
+            <td class="tg-0lax">7.99E-01</td>
+          </tr>
+        </tbody>
         </table>
       </section>
 
-      <section id="metrics_2" style="text-align: center; margin-top: 10px;">
-        <hr>
-        <h2>Q&A</h2><br><hr>
-        <br><h4>Questions and Answers</h4>
-        <table class="table table-bordered" style="font-size: 12px;">
-          <thead>
-            <tr>
-              <th scope="col">Framework</th>
-              <th scope="col">Questions Count</th>
-              <th scope="col">Details</th>
-              <th scope="col">Accepted Answers</th>
-              <th scope="col">Details</th>
-
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th>Android</th>
-              <td>453</td>
-              <td><a href="https://drive.google.com/file/d/1xmkBKvdfbXibwb8iyim_xrcqNJZ0DGwK/view?usp=sharing" target="__blank">csv file</a></td>
-              <td>538</td>
-              <td><a href="https://drive.google.com/file/d/1RqvZftIGNUYezyJ-1G0SqMvV6eTL-Mrt/view?usp=sharing" target="__blank">csv file</a></td>
-            </tr>
-            <tr>
-              <th>Azure</th>
-              <td>36</td>
-              <td><a href="https://drive.google.com/file/d/1-JzW_BNZZo7WPRjELRjqwzPsJB9Csunw/view?usp=sharing" target="__blank">csv file</a></td>
-              <td>34</td>
-              <td><a href="https://drive.google.com/file/d/1BVr2BTTX2l3ZSbjPvpXwWb5f9mbAwXvA/view?usp=sharing" target="__blank">csv file</a></td>
-            </tr>
-            <tr>
-              <th>AWS</th>
-              <td>6</td>
-              <td><a href="https://drive.google.com/file/d/1jlBIqOEMx3lPS5P1U5jKJgncGapsZWFA/view?usp=sharing" target="__blank">csv file</a></td>
-              <td>5</td>
-              <td><a href="https://drive.google.com/file/d/1LUBoPpJqu0es2VmEZ1JvPgicnzz1FC0t/view?usp=sharing" target="__blank">csv file</a></td>
-            </tr>
-            <tr>
-              <th>Spring</th>
-              <td>54</td>
-              <td><a href="https://drive.google.com/file/d/1h-FzCiD6X5JrB2FOmMYyeX20Ds_Ol-WR/view?usp=sharing" target="__blank">csv file</a></td>
-              <td>62</td>
-              <td><a href="https://drive.google.com/file/d/1ixaoFPeFTHA2sHVZuH7tFeYL0ThL6xnF/view?usp=sharing" target="__blank">csv file</a></td>
-            </tr>
-          </tbody>
+      <section id="aws" style="text-align: center; margin-top: 10px;">
+        <h2>AWS</h2>
+        <style type="text/css">
+        .tg  {border-collapse:collapse;border-color:#ccc;border-spacing:0;}
+        .tg td{background-color:#fff;border-color:#ccc;border-style:solid;border-width:1px;color:#333;
+          font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
+        .tg th{background-color:#f0f0f0;border-color:#ccc;border-style:solid;border-width:1px;color:#333;
+          font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+        .tg .tg-0lax{text-align:left;vertical-align:top}
+        </style>
+        <table class="tg">
+        <thead>
+          <tr>
+            <th class="tg-0lax"><span style="font-weight:bold">metric</span></th>
+            <th class="tg-0lax"><span style="font-weight:bold">shortname</span></th>
+            <th class="tg-0lax"><span style="font-weight:bold">min</span></th>
+            <th class="tg-0lax"><span style="font-weight:bold">max</span></th>
+            <th class="tg-0lax"><span style="font-weight:bold">avg</span></th>
+            <th class="tg-0lax"><span style="font-weight:bold">med</span></th>
+            <th class="tg-0lax"><span style="font-weight:bold">std</span></th>
+            <th class="tg-0lax"><span style="font-weight:bold">trend</span></th>
+            <th class="tg-0lax"><span style="font-weight:bold">p-value</span></th>
+            <th class="tg-0lax"><span style="font-weight:bold">correlation</span></th>
+            <th class="tg-0lax"><span style="font-weight:bold">p-value</span></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="tg-0lax">readability</td>
+            <td class="tg-0lax">Readability</td>
+            <td class="tg-0lax">0</td>
+            <td class="tg-0lax">0.05029929036</td>
+            <td class="tg-0lax">0.01955109079</td>
+            <td class="tg-0lax">0.0002493386633</td>
+            <td class="tg-0lax">0.02231378958</td>
+            <td class="tg-0lax">increasing</td>
+            <td class="tg-0lax">0.00E+00</td>
+            <td class="tg-0lax">0.6676106439</td>
+            <td class="tg-0lax">1.64E-12</td>
+          </tr>
+          <tr>
+            <td class="tg-0lax">CountClassDerived</td>
+            <td class="tg-0lax">NOC</td>
+            <td class="tg-0lax">0</td>
+            <td class="tg-0lax">0.1641791045</td>
+            <td class="tg-0lax">0.05050801189</td>
+            <td class="tg-0lax">0</td>
+            <td class="tg-0lax">0.06040473048</td>
+            <td class="tg-0lax">increasing</td>
+            <td class="tg-0lax">7.91E-09</td>
+            <td class="tg-0lax">0.4748987915</td>
+            <td class="tg-0lax">3.36E-06</td>
+          </tr>
+          <tr>
+            <td class="tg-0lax">CountDeclMethodAll</td>
+            <td class="tg-0lax">RFC</td>
+            <td class="tg-0lax">15.95521706</td>
+            <td class="tg-0lax">18</td>
+            <td class="tg-0lax">16.9167125</td>
+            <td class="tg-0lax">16.87480442</td>
+            <td class="tg-0lax">0.7580979064</td>
+            <td class="tg-0lax">no trend</td>
+            <td class="tg-0lax">6.34E-01</td>
+            <td class="tg-0lax">0.2180816382</td>
+            <td class="tg-0lax">4.24E-02</td>
+          </tr>
+          <tr>
+            <td class="tg-0lax">CountClassCoupled</td>
+            <td class="tg-0lax">CBO</td>
+            <td class="tg-0lax">6.160326671</td>
+            <td class="tg-0lax">11</td>
+            <td class="tg-0lax">8.909943463</td>
+            <td class="tg-0lax">8.55380439</td>
+            <td class="tg-0lax">1.65115246</td>
+            <td class="tg-0lax">decreasing</td>
+            <td class="tg-0lax">6.53E-03</td>
+            <td class="tg-0lax">0.1882906368</td>
+            <td class="tg-0lax">8.07E-02</td>
+          </tr>
+          <tr>
+            <td class="tg-0lax">CountLineComment</td>
+            <td class="tg-0lax">CLOC</td>
+            <td class="tg-0lax">10.40029014</td>
+            <td class="tg-0lax">31.5</td>
+            <td class="tg-0lax">19.70420261</td>
+            <td class="tg-0lax">20.01123984</td>
+            <td class="tg-0lax">7.968383938</td>
+            <td class="tg-0lax">no trend</td>
+            <td class="tg-0lax">1.67E-01</td>
+            <td class="tg-0lax">0.1526566526</td>
+            <td class="tg-0lax">1.58E-01</td>
+          </tr>
+          <tr>
+            <td class="tg-0lax">CountDeclClass</td>
+            <td class="tg-0lax">Classes</td>
+            <td class="tg-0lax">2</td>
+            <td class="tg-0lax">40.34090909</td>
+            <td class="tg-0lax">24.22926032</td>
+            <td class="tg-0lax">27075</td>
+            <td class="tg-0lax">14.52359489</td>
+            <td class="tg-0lax">increasing</td>
+            <td class="tg-0lax">3.62E-04</td>
+            <td class="tg-0lax">-0.1245146074</td>
+            <td class="tg-0lax">2.51E-01</td>
+          </tr>
+          <tr>
+            <td class="tg-0lax">SumCyclomatic</td>
+            <td class="tg-0lax">WMC</td>
+            <td class="tg-0lax">6.451962891</td>
+            <td class="tg-0lax">14.5</td>
+            <td class="tg-0lax">9.918934521</td>
+            <td class="tg-0lax">9.237678156</td>
+            <td class="tg-0lax">2.814671986</td>
+            <td class="tg-0lax">decreasing</td>
+            <td class="tg-0lax">1.37E-04</td>
+            <td class="tg-0lax">0.1135860954</td>
+            <td class="tg-0lax">2.95E-01</td>
+          </tr>
+          <tr>
+            <td class="tg-0lax">numberJavaFiles</td>
+            <td class="tg-0lax">Java</td>
+            <td class="tg-0lax">2</td>
+            <td class="tg-0lax">35.84090909</td>
+            <td class="tg-0lax">20.24702277</td>
+            <td class="tg-0lax">23675</td>
+            <td class="tg-0lax">11.88131181</td>
+            <td class="tg-0lax">increasing</td>
+            <td class="tg-0lax">2.03E-04</td>
+            <td class="tg-0lax">-0.1076376108</td>
+            <td class="tg-0lax">3.21E-01</td>
+          </tr>
+          <tr>
+            <td class="tg-0lax">PercentLackOfCohesion</td>
+            <td class="tg-0lax">LCOM</td>
+            <td class="tg-0lax">25.00079691</td>
+            <td class="tg-0lax">37.5</td>
+            <td class="tg-0lax">30.44429107</td>
+            <td class="tg-0lax">28.82325312</td>
+            <td class="tg-0lax">4.356008728</td>
+            <td class="tg-0lax">decreasing</td>
+            <td class="tg-0lax">8.38E-05</td>
+            <td class="tg-0lax">0.09677412344</td>
+            <td class="tg-0lax">3.73E-01</td>
+          </tr>
+          <tr>
+            <td class="tg-0lax">CountLine</td>
+            <td class="tg-0lax">PL</td>
+            <td class="tg-0lax">75.90008597</td>
+            <td class="tg-0lax">143</td>
+            <td class="tg-0lax">110.5056255</td>
+            <td class="tg-0lax">101.1431658</td>
+            <td class="tg-0lax">20.51444753</td>
+            <td class="tg-0lax">decreasing</td>
+            <td class="tg-0lax">1.94E-05</td>
+            <td class="tg-0lax">0.0714054257</td>
+            <td class="tg-0lax">5.11E-01</td>
+          </tr>
+          <tr>
+            <td class="tg-0lax">CountLineCode</td>
+            <td class="tg-0lax">LOC</td>
+            <td class="tg-0lax">51.42102944</td>
+            <td class="tg-0lax">77.5</td>
+            <td class="tg-0lax">69.63271511</td>
+            <td class="tg-0lax">68.44858156</td>
+            <td class="tg-0lax">6.959133631</td>
+            <td class="tg-0lax">decreasing</td>
+            <td class="tg-0lax">1.03E-04</td>
+            <td class="tg-0lax">0.04316647576</td>
+            <td class="tg-0lax">6.91E-01</td>
+          </tr>
+          <tr>
+            <td class="tg-0lax">MaxInheritanceTree</td>
+            <td class="tg-0lax">DIT</td>
+            <td class="tg-0lax">1.010557705</td>
+            <td class="tg-0lax">1.5</td>
+            <td class="tg-0lax">1.272060642</td>
+            <td class="tg-0lax">1.292072006</td>
+            <td class="tg-0lax">0.1794767931</td>
+            <td class="tg-0lax">decreasing</td>
+            <td class="tg-0lax">8.21E-03</td>
+            <td class="tg-0lax">0.01814504991</td>
+            <td class="tg-0lax">8.68E-01</td>
+          </tr>
+        </tbody>
         </table>
-        <hr>
       </section>
 
-      <section id="metrics_3" style="text-align: center; margin-top: 10px;">
-        <hr>
-        <h2>Reputation</h2><br><hr>
-        <br><h4>Questioner's Reputation</h4>
-        <table class="table table-bordered" style="font-size: 12px;">
+      <section id="azure" style="text-align: center; margin-top: 10px;">
+        <h2>Azure</h2>
+          <style type="text/css">
+          .tg  {border-collapse:collapse;border-spacing:0;}
+          .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+            overflow:hidden;padding:10px 5px;word-break:normal;}
+          .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+            font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+          .tg .tg-0lax{text-align:left;vertical-align:top}
+          </style>
+          <table class="tg">
           <thead>
             <tr>
-              <th scope="col">Framework</th>
-              <th scope="col">Min</th>
-              <th scope="col">Max</th>
-              <th scope="col">Mode</th>
-              <th scope="col">Average</th>
-              <th scope="col">Median</th>
-              <th scope="col">Details</th>
+              <th class="tg-0lax"><span style="font-weight:bold">metric</span></th>
+              <th class="tg-0lax"><span style="font-weight:bold">shortname</span></th>
+              <th class="tg-0lax"><span style="font-weight:bold">min</span></th>
+              <th class="tg-0lax"><span style="font-weight:bold">max</span></th>
+              <th class="tg-0lax"><span style="font-weight:bold">avg</span></th>
+              <th class="tg-0lax"><span style="font-weight:bold">med</span></th>
+              <th class="tg-0lax"><span style="font-weight:bold">std</span></th>
+              <th class="tg-0lax"><span style="font-weight:bold">trend</span></th>
+              <th class="tg-0lax"><span style="font-weight:bold">p-value</span></th>
+              <th class="tg-0lax"><span style="font-weight:bold">correlation</span></th>
+              <th class="tg-0lax"><span style="font-weight:bold">p-value</span></th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <th>Android</th>
-              <td>1</td>
-              <td>100621</td>
-              <td>0 e 1</td>
-              <td>2064.18</td>
-              <td>323</td>
-              <td><a href="https://drive.google.com/file/d/1xmkBKvdfbXibwb8iyim_xrcqNJZ0DGwK/view?usp=sharing" target="__blank">csv file</a></td>
+              <td class="tg-0lax">readability</td>
+              <td class="tg-0lax">Readability</td>
+              <td class="tg-0lax">0.0004161693979</td>
+              <td class="tg-0lax">0.04169294159</td>
+              <td class="tg-0lax">0.01550724726</td>
+              <td class="tg-0lax">0.008417480588</td>
+              <td class="tg-0lax">0.01492789146</td>
+              <td class="tg-0lax">increasing</td>
+              <td class="tg-0lax">0.00E+00</td>
+              <td class="tg-0lax">0.9293811172</td>
+              <td class="tg-0lax">8.81E-27</td>
             </tr>
             <tr>
-              <th>Azure</th>
-              <td>1</td>
-              <td>3952</td>
-              <td>0 e 1</td>
-              <td>477.11</td>
-              <td>57</td>
-              <td><a href="https://drive.google.com/file/d/1-JzW_BNZZo7WPRjELRjqwzPsJB9Csunw/view?usp=sharing" target="__blank">csv file</a></td>
+              <td class="tg-0lax">SumCyclomatic</td>
+              <td class="tg-0lax">WMC</td>
+              <td class="tg-0lax">12.6</td>
+              <td class="tg-0lax">58.56671142</td>
+              <td class="tg-0lax">42.35319659</td>
+              <td class="tg-0lax">47.06982753</td>
+              <td class="tg-0lax">13.98287388</td>
+              <td class="tg-0lax">increasing</td>
+              <td class="tg-0lax">3.77E-08</td>
+              <td class="tg-0lax">0.7082783438</td>
+              <td class="tg-0lax">2.45E-10</td>
             </tr>
             <tr>
-              <th>AWS</th>
-              <td>3</td>
-              <td>1347</td>
-              <td>-</td>
-              <td>504.66</td>
-              <td>388.5</td>
-              <td><a href="https://drive.google.com/file/d/1jlBIqOEMx3lPS5P1U5jKJgncGapsZWFA/view?usp=sharing" target="__blank">csv file</a></td>
+              <td class="tg-0lax">CountLineCode</td>
+              <td class="tg-0lax">LOC</td>
+              <td class="tg-0lax">87.75</td>
+              <td class="tg-0lax">413.4739727</td>
+              <td class="tg-0lax">301.0730793</td>
+              <td class="tg-0lax">333.378666</td>
+              <td class="tg-0lax">97.57715402</td>
+              <td class="tg-0lax">increasing</td>
+              <td class="tg-0lax">4.61E-07</td>
+              <td class="tg-0lax">0.6505409861</td>
+              <td class="tg-0lax">1.84E-08</td>
             </tr>
             <tr>
-              <th>Spring</th>
-              <td>1</td>
-              <td>36426</td>
-              <td>0 e 11</td>
-              <td>3400.03</td>
-              <td>430.5</td>
-              <td><a href="https://drive.google.com/file/d/1h-FzCiD6X5JrB2FOmMYyeX20Ds_Ol-WR/view?usp=sharing" target="__blank">csv file</a></td>
+              <td class="tg-0lax">CountLine</td>
+              <td class="tg-0lax">PL</td>
+              <td class="tg-0lax">164.41</td>
+              <td class="tg-0lax">574.1423512</td>
+              <td class="tg-0lax">427.4920104</td>
+              <td class="tg-0lax">459.2785772</td>
+              <td class="tg-0lax">117.8853138</td>
+              <td class="tg-0lax">increasing</td>
+              <td class="tg-0lax">7.92E-06</td>
+              <td class="tg-0lax">0.6020226662</td>
+              <td class="tg-0lax">3.61E-07</td>
+            </tr>
+            <tr>
+              <td class="tg-0lax">CountClassCoupled</td>
+              <td class="tg-0lax">CBO</td>
+              <td class="tg-0lax">9.873015873</td>
+              <td class="tg-0lax">15.65873016</td>
+              <td class="tg-0lax">11.66955512</td>
+              <td class="tg-0lax">11.3303845</td>
+              <td class="tg-0lax">1.325223918</td>
+              <td class="tg-0lax">decreasing</td>
+              <td class="tg-0lax">2.19E-09</td>
+              <td class="tg-0lax">-0.5952184426</td>
+              <td class="tg-0lax">5.28E-07</td>
+            </tr>
+            <tr>
+              <td class="tg-0lax">CountDeclMethodAll</td>
+              <td class="tg-0lax">RFC</td>
+              <td class="tg-0lax">16.74</td>
+              <td class="tg-0lax">36.59819645</td>
+              <td class="tg-0lax">28.34054235</td>
+              <td class="tg-0lax">30.05451844</td>
+              <td class="tg-0lax">5.863378176</td>
+              <td class="tg-0lax">increasing</td>
+              <td class="tg-0lax">1.11E-03</td>
+              <td class="tg-0lax">0.5710152453</td>
+              <td class="tg-0lax">1.90E-06</td>
+            </tr>
+            <tr>
+              <td class="tg-0lax">CountLineComment</td>
+              <td class="tg-0lax">CLOC</td>
+              <td class="tg-0lax">47.83174603</td>
+              <td class="tg-0lax">104.4598249</td>
+              <td class="tg-0lax">81.76506396</td>
+              <td class="tg-0lax">80.64986286</td>
+              <td class="tg-0lax">13.64409761</td>
+              <td class="tg-0lax">increasing</td>
+              <td class="tg-0lax">1.24E-03</td>
+              <td class="tg-0lax">0.532336767</td>
+              <td class="tg-0lax">1.20E-05</td>
+            </tr>
+            <tr>
+              <td class="tg-0lax">numberJavaFiles</td>
+              <td class="tg-0lax">Java</td>
+              <td class="tg-0lax">1.52</td>
+              <td class="tg-0lax">24.8625</td>
+              <td class="tg-0lax">9.097287116</td>
+              <td class="tg-0lax">9.384408602</td>
+              <td class="tg-0lax">4.53096586</td>
+              <td class="tg-0lax">increasing</td>
+              <td class="tg-0lax">9.82E-03</td>
+              <td class="tg-0lax">0.4010206832</td>
+              <td class="tg-0lax">1.50E-03</td>
+            </tr>
+            <tr>
+              <td class="tg-0lax">CountDeclClass</td>
+              <td class="tg-0lax">Classes</td>
+              <td class="tg-0lax">1.52</td>
+              <td class="tg-0lax">53.32916667</td>
+              <td class="tg-0lax">15.98897693</td>
+              <td class="tg-0lax">17.44160173</td>
+              <td class="tg-0lax">9.599193114</td>
+              <td class="tg-0lax">increasing</td>
+              <td class="tg-0lax">1.22E-02</td>
+              <td class="tg-0lax">0.3883993381</td>
+              <td class="tg-0lax">2.16E-03</td>
+            </tr>
+            <tr>
+              <td class="tg-0lax">CountClassDerived</td>
+              <td class="tg-0lax">NOC</td>
+              <td class="tg-0lax">0</td>
+              <td class="tg-0lax">0.01847877663</td>
+              <td class="tg-0lax">0.006106089247</td>
+              <td class="tg-0lax">0.005555555556</td>
+              <td class="tg-0lax">0.005254195285</td>
+              <td class="tg-0lax">no trend</td>
+              <td class="tg-0lax">3.04E-01</td>
+              <td class="tg-0lax">0.3792765862</td>
+              <td class="tg-0lax">2.80E-03</td>
+            </tr>
+            <tr>
+              <td class="tg-0lax">MaxInheritanceTree</td>
+              <td class="tg-0lax">DIT</td>
+              <td class="tg-0lax">1.051587302</td>
+              <td class="tg-0lax">1.26</td>
+              <td class="tg-0lax">1.138450374</td>
+              <td class="tg-0lax">1.128481245</td>
+              <td class="tg-0lax">0.03751712414</td>
+              <td class="tg-0lax">no trend</td>
+              <td class="tg-0lax">1.73E-01</td>
+              <td class="tg-0lax">-0.2574707527</td>
+              <td class="tg-0lax">4.70E-02</td>
+            </tr>
+            <tr>
+              <td class="tg-0lax">PercentLackOfCohesion</td>
+              <td class="tg-0lax">LCOM</td>
+              <td class="tg-0lax">12.01984127</td>
+              <td class="tg-0lax">55.75</td>
+              <td class="tg-0lax">33.35530093</td>
+              <td class="tg-0lax">36.17585098</td>
+              <td class="tg-0lax">9.179461891</td>
+              <td class="tg-0lax">no trend</td>
+              <td class="tg-0lax">8.37E-02</td>
+              <td class="tg-0lax">0.1131198741</td>
+              <td class="tg-0lax">3.89E-01</td>
             </tr>
           </tbody>
-        </table>
-        <hr>
-        <h4>Reputation of Those Who Answer and Have Their Answer Accepted</h4><br>
-        <table class="table table-bordered" style="font-size: 12px;">
-          <thead>
-            <tr>
-              <th scope="col">Framework</th>
-              <th scope="col">Min</th>
-              <th scope="col">Max</th>
-              <th scope="col">Mode</th>
-              <th scope="col">Average</th>
-              <th scope="col">Median</th>
-              <th scope="col">Details</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th>Android</th>
-              <td>21</td>
-              <td>856678</td>
-              <td>0 e 13769</td>
-              <td>26171.27</td>
-              <td>1514</td>
-              <td><a href="https://drive.google.com/file/d/1xmkBKvdfbXibwb8iyim_xrcqNJZ0DGwK/view?usp=sharing" target="__blank">csv file</a></td>
-            </tr>
-            <tr>
-              <th>Azure</th>
-              <td>1</td>
-              <td>90761</td>
-              <td>-</td>
-              <td>14427.9</td>
-              <td>1211.5</td>
-              <td><a href="https://drive.google.com/file/d/1-JzW_BNZZo7WPRjELRjqwzPsJB9Csunw/view?usp=sharing" target="__blank">csv file</a></td>
-            </tr>
-            <tr>
-              <th>AWS</th>
-              <td>60</td>
-              <td>2598</td>
-              <td>-</td>
-              <td>1294.66</td>
-              <td>1226</td>
-              <td><a href="https://drive.google.com/file/d/1jlBIqOEMx3lPS5P1U5jKJgncGapsZWFA/view?usp=sharing" target="__blank">csv file</a></td>
-            </tr>
-            <tr>
-              <th>Spring</th>
-              <td>86</td>
-              <td>49144</td>
-              <td>-</td>
-              <td>10042.37</td>
-              <td>3970</td>
-              <td><a href="https://drive.google.com/file/d/1h-FzCiD6X5JrB2FOmMYyeX20Ds_Ol-WR/view?usp=sharing" target="__blank">csv file</a></td>
-            </tr>
-          </tbody>
-        </table>
+          </table>
+      </section>
 
-        <hr>
-        <h4>Answer's Reputation</h4><br>
-        <table class="table table-bordered" style="font-size: 12px;">
+      <section id="spring" style="text-align: center; margin-top: 10px;">
+        <h2>Spring</h2>
+          <style type="text/css">
+          .tg  {border-collapse:collapse;border-color:#ccc;border-spacing:0;}
+          .tg td{background-color:#fff;border-color:#ccc;border-style:solid;border-width:1px;color:#333;
+            font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
+          .tg th{background-color:#f0f0f0;border-color:#ccc;border-style:solid;border-width:1px;color:#333;
+            font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+          .tg .tg-0lax{text-align:left;vertical-align:top}
+          </style>
+          <table class="tg">
           <thead>
             <tr>
-              <th scope="col">Framework</th>
-              <th scope="col">Min</th>
-              <th scope="col">Max</th>
-              <th scope="col">Mode</th>
-              <th scope="col">Average</th>
-              <th scope="col">Median</th>
-              <th scope="col">Details</th>
+              <th class="tg-0lax"><span style="font-weight:bold">metric</span></th>
+              <th class="tg-0lax"><span style="font-weight:bold">shortname</span></th>
+              <th class="tg-0lax"><span style="font-weight:bold">min</span></th>
+              <th class="tg-0lax"><span style="font-weight:bold">max</span></th>
+              <th class="tg-0lax"><span style="font-weight:bold">avg</span></th>
+              <th class="tg-0lax"><span style="font-weight:bold">med</span></th>
+              <th class="tg-0lax"><span style="font-weight:bold">std</span></th>
+              <th class="tg-0lax"><span style="font-weight:bold">trend</span></th>
+              <th class="tg-0lax"><span style="font-weight:bold">p-value</span></th>
+              <th class="tg-0lax"><span style="font-weight:bold">correlation</span></th>
+              <th class="tg-0lax"><span style="font-weight:bold">p-value</span></th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <th>Android</th>
-              <td>1</td>
-              <td>858843</td>
-              <td>0 e 1</td>
-              <td>12705.41</td>
-              <td>885</td>
-              <td><a href="https://drive.google.com/file/d/1RqvZftIGNUYezyJ-1G0SqMvV6eTL-Mrt/view?usp=sharing" target="__blank">csv file</a></td>
+              <td class="tg-0lax">numberJavaFiles</td>
+              <td class="tg-0lax">Java</td>
+              <td class="tg-0lax">3.161290323</td>
+              <td class="tg-0lax">7.166666667</td>
+              <td class="tg-0lax">4.917001742</td>
+              <td class="tg-0lax">5.499206349</td>
+              <td class="tg-0lax">1.304594675</td>
+              <td class="tg-0lax">increasing</td>
+              <td class="tg-0lax">0.00E+00</td>
+              <td class="tg-0lax">0.9659720873</td>
+              <td class="tg-0lax">0.00E+00</td>
             </tr>
             <tr>
-              <th>Azure</th>
-              <td>1</td>
-              <td>90761</td>
-              <td>-</td>
-              <td>9620.23</td>
-              <td>1391</td>
-              <td><a href="https://drive.google.com/file/d/1BVr2BTTX2l3ZSbjPvpXwWb5f9mbAwXvA/view?usp=sharing" target="__blank">csv file</a></td>
+              <td class="tg-0lax">CountClassCoupled</td>
+              <td class="tg-0lax">CBO</td>
+              <td class="tg-0lax">2.541850145</td>
+              <td class="tg-0lax">4.066893424</td>
+              <td class="tg-0lax">3.038573548</td>
+              <td class="tg-0lax">2.995227072</td>
+              <td class="tg-0lax">0.2249640405</td>
+              <td class="tg-0lax">decreasing</td>
+              <td class="tg-0lax">0.00E+00</td>
+              <td class="tg-0lax">-0.8876142438</td>
+              <td class="tg-0lax">0.00E+00</td>
             </tr>
             <tr>
-              <th>AWS</th>
-              <td>60</td>
-              <td>2598</td>
-              <td>-</td>
-              <td>941.8</td>
-              <td>646</td>
-              <td><a href="https://drive.google.com/file/d/1LUBoPpJqu0es2VmEZ1JvPgicnzz1FC0t/view?usp=sharing" target="__blank">csv file</a></td>
+              <td class="tg-0lax">CountDeclClass</td>
+              <td class="tg-0lax">Classes</td>
+              <td class="tg-0lax">3.344086022</td>
+              <td class="tg-0lax">7.638888889</td>
+              <td class="tg-0lax">5.384550566</td>
+              <td class="tg-0lax">5.992857143</td>
+              <td class="tg-0lax">1.264249631</td>
+              <td class="tg-0lax">increasing</td>
+              <td class="tg-0lax">0.00E+00</td>
+              <td class="tg-0lax">0.9602845036</td>
+              <td class="tg-0lax">0.00E+00</td>
             </tr>
             <tr>
-              <th>Spring</th>
-              <td>1</td>
-              <td>112387</td>
-              <td>0 e 1</td>
-              <td>10788.19</td>
-              <td>1387</td>
-              <td><a href="https://drive.google.com/file/d/1ixaoFPeFTHA2sHVZuH7tFeYL0ThL6xnF/view?usp=sharing" target="__blank">csv file</a></td>
+              <td class="tg-0lax">MaxInheritanceTree</td>
+              <td class="tg-0lax">DIT</td>
+              <td class="tg-0lax">1.030187075</td>
+              <td class="tg-0lax">1.11108631</td>
+              <td class="tg-0lax">1.078163711</td>
+              <td class="tg-0lax">1.079869711</td>
+              <td class="tg-0lax">0.02233867095</td>
+              <td class="tg-0lax">decreasing</td>
+              <td class="tg-0lax">2.22E-16</td>
+              <td class="tg-0lax">-0.7131470246</td>
+              <td class="tg-0lax">4.48E-15</td>
+            </tr>
+            <tr>
+              <td class="tg-0lax">CountLineComment</td>
+              <td class="tg-0lax">CLOC</td>
+              <td class="tg-0lax">0.4775641026</td>
+              <td class="tg-0lax">1.722420635</td>
+              <td class="tg-0lax">0.8898715742</td>
+              <td class="tg-0lax">0.9250287383</td>
+              <td class="tg-0lax">0.2579541939</td>
+              <td class="tg-0lax">increasing</td>
+              <td class="tg-0lax">6.66E-16</td>
+              <td class="tg-0lax">0.759528282</td>
+              <td class="tg-0lax">6.28E-18</td>
+            </tr>
+            <tr>
+              <td class="tg-0lax">CountDeclMethodAll</td>
+              <td class="tg-0lax">RFC</td>
+              <td class="tg-0lax">13.30654762</td>
+              <td class="tg-0lax">15.14596561</td>
+              <td class="tg-0lax">14.57123104</td>
+              <td class="tg-0lax">14.68827515</td>
+              <td class="tg-0lax">0.4053166982</td>
+              <td class="tg-0lax">increasing</td>
+              <td class="tg-0lax">2.00E-15</td>
+              <td class="tg-0lax">0.7670635619</td>
+              <td class="tg-0lax">1.88E-18</td>
+            </tr>
+            <tr>
+              <td class="tg-0lax">SumCyclomatic</td>
+              <td class="tg-0lax">WMC</td>
+              <td class="tg-0lax">2.163690476</td>
+              <td class="tg-0lax">2.91860808</td>
+              <td class="tg-0lax">2.658338211</td>
+              <td class="tg-0lax">2.673693921</td>
+              <td class="tg-0lax">0.1908897637</td>
+              <td class="tg-0lax">increasing</td>
+              <td class="tg-0lax">3.52E-13</td>
+              <td class="tg-0lax">0.6696926471</td>
+              <td class="tg-0lax">7.19E-13</td>
+            </tr>
+            <tr>
+              <td class="tg-0lax">CountLine</td>
+              <td class="tg-0lax">PL</td>
+              <td class="tg-0lax">18.59877112</td>
+              <td class="tg-0lax">27.97128685</td>
+              <td class="tg-0lax">22.08974804</td>
+              <td class="tg-0lax">22.06353618</td>
+              <td class="tg-0lax">2.105550092</td>
+              <td class="tg-0lax">increasing</td>
+              <td class="tg-0lax">2.27E-11</td>
+              <td class="tg-0lax">0.6540353285</td>
+              <td class="tg-0lax">3.66E-12</td>
+            </tr>
+            <tr>
+              <td class="tg-0lax">PercentLackOfCohesion</td>
+              <td class="tg-0lax">LCOM</td>
+              <td class="tg-0lax">0.9961734694</td>
+              <td class="tg-0lax">16.40530303</td>
+              <td class="tg-0lax">13.42376078</td>
+              <td class="tg-0lax">13.83526382</td>
+              <td class="tg-0lax">2.035463031</td>
+              <td class="tg-0lax">decreasing</td>
+              <td class="tg-0lax">3.16E-09</td>
+              <td class="tg-0lax">-0.529247708</td>
+              <td class="tg-0lax">9.70E-08</td>
+            </tr>
+            <tr>
+              <td class="tg-0lax">CountLineCode</td>
+              <td class="tg-0lax">LOC</td>
+              <td class="tg-0lax">14.36966206</td>
+              <td class="tg-0lax">20.82015306</td>
+              <td class="tg-0lax">16.65088937</td>
+              <td class="tg-0lax">16.4588831</td>
+              <td class="tg-0lax">1.365074285</td>
+              <td class="tg-0lax">increasing</td>
+              <td class="tg-0lax">3.71E-08</td>
+              <td class="tg-0lax">0.5760075215</td>
+              <td class="tg-0lax">3.51E-09</td>
+            </tr>
+            <tr>
+              <td class="tg-0lax">CountClassDerived</td>
+              <td class="tg-0lax">NOC</td>
+              <td class="tg-0lax">0</td>
+              <td class="tg-0lax">0.008477237049</td>
+              <td class="tg-0lax">0.004353819819</td>
+              <td class="tg-0lax">0.007533482143</td>
+              <td class="tg-0lax">0.003948874014</td>
+              <td class="tg-0lax">increasing</td>
+              <td class="tg-0lax">1.64E-06</td>
+              <td class="tg-0lax">0.6597056404</td>
+              <td class="tg-0lax">2.05E-12</td>
+            </tr>
+            <tr>
+              <td class="tg-0lax">readability</td>
+              <td class="tg-0lax">Readability</td>
+              <td class="tg-0lax">0.2256384855</td>
+              <td class="tg-0lax">0.3631731392</td>
+              <td class="tg-0lax">0.2902964793</td>
+              <td class="tg-0lax">0.2713665039</td>
+              <td class="tg-0lax">0.03612148671</td>
+              <td class="tg-0lax">decreasing</td>
+              <td class="tg-0lax">5.82E-06</td>
+              <td class="tg-0lax">-0.5113893074</td>
+              <td class="tg-0lax">3.03E-07</td>
             </tr>
           </tbody>
-        </table>
-        <hr>
+          </table>
       </section>
     </div>
 
