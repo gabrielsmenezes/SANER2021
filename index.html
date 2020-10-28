@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Quero lhe usar!</title>
+    <style>
+      a:hover {
+        background-color: #B4B4B4;
+      }
+    </style>
+  </head>
+  <body>
+    <!--navbar-->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#" style="background-color: transparent;">Abstract</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#metrics_1">Code Samples</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#metrics_2">Question</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#metrics_3">Reputation</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container">
+      <h1 style="text-align: center; margin-top: 10px;"><br><br><b>Quero lhe usar!<br>Uma Análise do Público-Alvo de Code Samples</b></h1><hr>
+
+      <p style="text-align: justify;"><b>Abstract. </b>Code samples are projects made available by organizations to assistthe learning process of features of their products software. There is an increasein the importance that code samples have in the developer community, but littleis  known  about  who  are  using  them.   The  target  audience  for  code  samplesis believed to be the inexperienced developer,  but to start a characterization,the current work presents an empirical study through the analysis of developerstatistics on the Stack Overflow.  As a result, implications have been generatedthat can assist organizations to keep code samples relevants to developers.</p>
+      <p style="text-align: center;"><b>Willian M. Braga, Gabriel Menezes, Awdren Fontão, Bruno Cafeu, André Hora</b></p><br><hr>
+    </div>
+    <div class="container">
+      <section id="metrics_1" style="text-align: center;">
+        <h2>Code Samples</h2><br><hr>
+        <br><h4>Number Of Java Files</h4>
+        <table class="table table-bordered" style="font-size: 12px;">
+          <thead>
+            <tr>
+              <th scope="col">Framework</th>
+              <th scope="col">Min</th>
+              <th scope="col">Max</th>
+              <th scope="col">Mode</th>
+              <th scope="col">Average</th>
+              <th scope="col">Median</th>
+              <th scope="col">Details</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>Android</th>
+              <td>0</td>
+              <td>348</td>
+              <td>0 e 4</td>
+              <td>14</td>
+              <td>9</td>
+              <td><a href="https://drive.google.com/file/d/144wvCeH6VkGYxW9xYLVJ6UkIu2zch9fr/view?usp=sharing" target="__blank">csv file</a></td>
+            </tr>
+            <tr>
+              <th>Azure</th>
+              <td>0</td>
+              <td>102</td>
+              <td>0 e 2</td>
+              <td>6.72</td>
+              <td>2</td>
+              <td><a href="https://drive.google.com/file/d/11GAnlG3bk3Qwln-pKjSEjF2XYh_12waU/view?usp=sharing" target="__blank">csv file</a></td>
+            </tr>
+            <tr>
+              <th>AWS</th>
+              <td>1</td>
+              <td>203</td>
+              <td>0 e 2</td>
+              <td>23.16</td>
+              <td>10</td>
+              <td><a href="https://drive.google.com/file/d/1zXa4x1xXxLF2pIVVCZPEfgWS8yqjlcxq/view?usp=sharing" target="__blank">csv file</a></td>
+            </tr>
+            <tr>
+              <th>Spring</th>
+              <td>2</td>
+              <td>38</td>
+              <td>0 e 6</td>
+              <td>6.78</td>
+              <td>6</td>
+              <td><a href="https://drive.google.com/file/d/1fPbkwgl6SYQu2NynVTrAAQOn9P9c5ztU/view?usp=sharing" target="__blank">csv file</a></td>
+            </tr>
+          </tbody>
+        </table>
+        <hr>
+        <h4>Count Line Code by Java File</h4><br>
+        <table class="table table-bordered" style="font-size: 12px;">
+          <thead>
+            <tr>
+              <th scope="col">Framework</th>
+              <th scope="col">Min</th>
+              <th scope="col">Max</th>
+              <th scope="col">Mode</th>
+              <th scope="col">Average</th>
+              <th scope="col">Median</th>
+              <th scope="col">Details</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>Android</th>
+              <td>21.5</td>
+              <td>524.30</td>
+              <td>-</td>
+              <td>89.42</td>
+              <td>70.5</td>
+              <td><a href="https://drive.google.com/file/d/144wvCeH6VkGYxW9xYLVJ6UkIu2zch9fr/view?usp=sharing" target="__blank">csv file</a></td>
+            </tr>
+            <tr>
+              <th>Azure</th>
+              <td>12.33</td>
+              <td>1373.5</td>
+              <td>0 e 1271</td>
+              <td>738.01</td>
+              <td>1208.75</td>
+              <td><a href="https://drive.google.com/file/d/11GAnlG3bk3Qwln-pKjSEjF2XYh_12waU/view?usp=sharing" target="__blank">csv file</a></td>
+            </tr>
+            <tr>
+              <th>AWS</th>
+              <td>9.5</td>
+              <td>378</td>
+              <td>0, 1, 26 e 58</td>
+              <td>68.41</td>
+              <td>56.4</td>
+              <td><a href="https://drive.google.com/file/d/1zXa4x1xXxLF2pIVVCZPEfgWS8yqjlcxq/view?usp=sharing" target="__blank">csv file</a></td>
+            </tr>
+            <tr>
+              <th>Spring</th>
+              <td>8</td>
+              <td>48</td>
+              <td>0 e 15</td>
+              <td>22.16</td>
+              <td>20.71</td>
+              <td><a href="https://drive.google.com/file/d/1fPbkwgl6SYQu2NynVTrAAQOn9P9c5ztU/view?usp=sharing" target="__blank">csv file</a></td>
+            </tr>
+          </tbody>
+        </table>
+        <br><h4>Cyclomatic Complexity by Method</h4>
+        <table class="table table-bordered" style="font-size: 12px;">
+          <thead>
+            <tr>
+              <th scope="col">Framework</th>
+              <th scope="col">Min</th>
+              <th scope="col">Max</th>
+              <th scope="col">Mode</th>
+              <th scope="col">Average</th>
+              <th scope="col">Median</th>
+              <th scope="col">Details</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>Android</th>
+              <td>1</td>
+              <td>3.14</td>
+              <td>-</td>
+              <td>1.54</td>
+              <td>1.57</td>
+              <td><a href="https://drive.google.com/file/d/144wvCeH6VkGYxW9xYLVJ6UkIu2zch9fr/view?usp=sharing" target="__blank">csv file</a></td>
+            </tr>
+            <tr>
+              <th>Azure</th>
+              <td>0.60</td>
+              <td>15</td>
+              <td>0 e 3.81</td>
+              <td>3.05</td>
+              <td>3.72</td>
+              <td><a href="https://drive.google.com/file/d/11GAnlG3bk3Qwln-pKjSEjF2XYh_12waU/view?usp=sharing" target="__blank">csv file</a></td>
+            </tr>
+            <tr>
+              <th>AWS</th>
+              <td>1</td>
+              <td>13</td>
+              <td>0 e 1</td>
+              <td>1.85</td>
+              <td>1.62</td>
+              <td><a href="https://drive.google.com/file/d/1zXa4x1xXxLF2pIVVCZPEfgWS8yqjlcxq/view?usp=sharing" target="__blank">csv file</a></td>
+            </tr>
+            <tr>
+              <th>Spring</th>
+              <td>0.9</td>
+              <td>2.6</td>
+              <td>0 e 1</td>
+              <td>1.16</td>
+              <td>1</td>
+              <td><a href="https://drive.google.com/file/d/1fPbkwgl6SYQu2NynVTrAAQOn9P9c5ztU/view?usp=sharing" target="__blank">csv file</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="metrics_2" style="text-align: center; margin-top: 10px;">
+        <hr>
+        <h2>Q&A</h2><br><hr>
+        <br><h4>Questions and Answers</h4>
+        <table class="table table-bordered" style="font-size: 12px;">
+          <thead>
+            <tr>
+              <th scope="col">Framework</th>
+              <th scope="col">Questions Count</th>
+              <th scope="col">Details</th>
+              <th scope="col">Accepted Answers</th>
+              <th scope="col">Details</th>
+
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>Android</th>
+              <td>453</td>
+              <td><a href="https://drive.google.com/file/d/1xmkBKvdfbXibwb8iyim_xrcqNJZ0DGwK/view?usp=sharing" target="__blank">csv file</a></td>
+              <td>538</td>
+              <td><a href="https://drive.google.com/file/d/1RqvZftIGNUYezyJ-1G0SqMvV6eTL-Mrt/view?usp=sharing" target="__blank">csv file</a></td>
+            </tr>
+            <tr>
+              <th>Azure</th>
+              <td>36</td>
+              <td><a href="https://drive.google.com/file/d/1-JzW_BNZZo7WPRjELRjqwzPsJB9Csunw/view?usp=sharing" target="__blank">csv file</a></td>
+              <td>34</td>
+              <td><a href="https://drive.google.com/file/d/1BVr2BTTX2l3ZSbjPvpXwWb5f9mbAwXvA/view?usp=sharing" target="__blank">csv file</a></td>
+            </tr>
+            <tr>
+              <th>AWS</th>
+              <td>6</td>
+              <td><a href="https://drive.google.com/file/d/1jlBIqOEMx3lPS5P1U5jKJgncGapsZWFA/view?usp=sharing" target="__blank">csv file</a></td>
+              <td>5</td>
+              <td><a href="https://drive.google.com/file/d/1LUBoPpJqu0es2VmEZ1JvPgicnzz1FC0t/view?usp=sharing" target="__blank">csv file</a></td>
+            </tr>
+            <tr>
+              <th>Spring</th>
+              <td>54</td>
+              <td><a href="https://drive.google.com/file/d/1h-FzCiD6X5JrB2FOmMYyeX20Ds_Ol-WR/view?usp=sharing" target="__blank">csv file</a></td>
+              <td>62</td>
+              <td><a href="https://drive.google.com/file/d/1ixaoFPeFTHA2sHVZuH7tFeYL0ThL6xnF/view?usp=sharing" target="__blank">csv file</a></td>
+            </tr>
+          </tbody>
+        </table>
+        <hr>
+      </section>
+
+      <section id="metrics_3" style="text-align: center; margin-top: 10px;">
+        <hr>
+        <h2>Reputation</h2><br><hr>
+        <br><h4>Questioner's Reputation</h4>
+        <table class="table table-bordered" style="font-size: 12px;">
+          <thead>
+            <tr>
+              <th scope="col">Framework</th>
+              <th scope="col">Min</th>
+              <th scope="col">Max</th>
+              <th scope="col">Mode</th>
+              <th scope="col">Average</th>
+              <th scope="col">Median</th>
+              <th scope="col">Details</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>Android</th>
+              <td>1</td>
+              <td>100621</td>
+              <td>0 e 1</td>
+              <td>2064.18</td>
+              <td>323</td>
+              <td><a href="https://drive.google.com/file/d/1xmkBKvdfbXibwb8iyim_xrcqNJZ0DGwK/view?usp=sharing" target="__blank">csv file</a></td>
+            </tr>
+            <tr>
+              <th>Azure</th>
+              <td>1</td>
+              <td>3952</td>
+              <td>0 e 1</td>
+              <td>477.11</td>
+              <td>57</td>
+              <td><a href="https://drive.google.com/file/d/1-JzW_BNZZo7WPRjELRjqwzPsJB9Csunw/view?usp=sharing" target="__blank">csv file</a></td>
+            </tr>
+            <tr>
+              <th>AWS</th>
+              <td>3</td>
+              <td>1347</td>
+              <td>-</td>
+              <td>504.66</td>
+              <td>388.5</td>
+              <td><a href="https://drive.google.com/file/d/1jlBIqOEMx3lPS5P1U5jKJgncGapsZWFA/view?usp=sharing" target="__blank">csv file</a></td>
+            </tr>
+            <tr>
+              <th>Spring</th>
+              <td>1</td>
+              <td>36426</td>
+              <td>0 e 11</td>
+              <td>3400.03</td>
+              <td>430.5</td>
+              <td><a href="https://drive.google.com/file/d/1h-FzCiD6X5JrB2FOmMYyeX20Ds_Ol-WR/view?usp=sharing" target="__blank">csv file</a></td>
+            </tr>
+          </tbody>
+        </table>
+        <hr>
+        <h4>Reputation of Those Who Answer and Have Their Answer Accepted</h4><br>
+        <table class="table table-bordered" style="font-size: 12px;">
+          <thead>
+            <tr>
+              <th scope="col">Framework</th>
+              <th scope="col">Min</th>
+              <th scope="col">Max</th>
+              <th scope="col">Mode</th>
+              <th scope="col">Average</th>
+              <th scope="col">Median</th>
+              <th scope="col">Details</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>Android</th>
+              <td>21</td>
+              <td>856678</td>
+              <td>0 e 13769</td>
+              <td>26171.27</td>
+              <td>1514</td>
+              <td><a href="https://drive.google.com/file/d/1xmkBKvdfbXibwb8iyim_xrcqNJZ0DGwK/view?usp=sharing" target="__blank">csv file</a></td>
+            </tr>
+            <tr>
+              <th>Azure</th>
+              <td>1</td>
+              <td>90761</td>
+              <td>-</td>
+              <td>14427.9</td>
+              <td>1211.5</td>
+              <td><a href="https://drive.google.com/file/d/1-JzW_BNZZo7WPRjELRjqwzPsJB9Csunw/view?usp=sharing" target="__blank">csv file</a></td>
+            </tr>
+            <tr>
+              <th>AWS</th>
+              <td>60</td>
+              <td>2598</td>
+              <td>-</td>
+              <td>1294.66</td>
+              <td>1226</td>
+              <td><a href="https://drive.google.com/file/d/1jlBIqOEMx3lPS5P1U5jKJgncGapsZWFA/view?usp=sharing" target="__blank">csv file</a></td>
+            </tr>
+            <tr>
+              <th>Spring</th>
+              <td>86</td>
+              <td>49144</td>
+              <td>-</td>
+              <td>10042.37</td>
+              <td>3970</td>
+              <td><a href="https://drive.google.com/file/d/1h-FzCiD6X5JrB2FOmMYyeX20Ds_Ol-WR/view?usp=sharing" target="__blank">csv file</a></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <hr>
+        <h4>Answer's Reputation</h4><br>
+        <table class="table table-bordered" style="font-size: 12px;">
+          <thead>
+            <tr>
+              <th scope="col">Framework</th>
+              <th scope="col">Min</th>
+              <th scope="col">Max</th>
+              <th scope="col">Mode</th>
+              <th scope="col">Average</th>
+              <th scope="col">Median</th>
+              <th scope="col">Details</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>Android</th>
+              <td>1</td>
+              <td>858843</td>
+              <td>0 e 1</td>
+              <td>12705.41</td>
+              <td>885</td>
+              <td><a href="https://drive.google.com/file/d/1RqvZftIGNUYezyJ-1G0SqMvV6eTL-Mrt/view?usp=sharing" target="__blank">csv file</a></td>
+            </tr>
+            <tr>
+              <th>Azure</th>
+              <td>1</td>
+              <td>90761</td>
+              <td>-</td>
+              <td>9620.23</td>
+              <td>1391</td>
+              <td><a href="https://drive.google.com/file/d/1BVr2BTTX2l3ZSbjPvpXwWb5f9mbAwXvA/view?usp=sharing" target="__blank">csv file</a></td>
+            </tr>
+            <tr>
+              <th>AWS</th>
+              <td>60</td>
+              <td>2598</td>
+              <td>-</td>
+              <td>941.8</td>
+              <td>646</td>
+              <td><a href="https://drive.google.com/file/d/1LUBoPpJqu0es2VmEZ1JvPgicnzz1FC0t/view?usp=sharing" target="__blank">csv file</a></td>
+            </tr>
+            <tr>
+              <th>Spring</th>
+              <td>1</td>
+              <td>112387</td>
+              <td>0 e 1</td>
+              <td>10788.19</td>
+              <td>1387</td>
+              <td><a href="https://drive.google.com/file/d/1ixaoFPeFTHA2sHVZuH7tFeYL0ThL6xnF/view?usp=sharing" target="__blank">csv file</a></td>
+            </tr>
+          </tbody>
+        </table>
+        <hr>
+      </section>
+    </div>
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
